@@ -1,2 +1,4 @@
+@forward 'placeholders'; // <-- Добавьте это в самое начало!
 @forward 'basic';
 @forward 'header';
+@forward 'hero';

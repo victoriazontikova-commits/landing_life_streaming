@@ -1,5 +1,11 @@
 @use 'variables' as v;
-@use 'importer';
+// Подключаем плейсхолдеры без префиксов, чтобы они были доступны везде
+@use 'placeholders' as *; 
+
+// Подключаем остальные файлы стилей напрямую по очереди
+@use 'basic';
+@use 'header';
+@use 'hero';
 
 body {
     background-color: v.$color_blue;
