@@ -4,8 +4,10 @@
 
 // Подключаем остальные файлы стилей напрямую по очереди
 @use 'basic';
+@use 'cards';
 @use 'header';
 @use 'hero';
+@use 'work';
 
 body {
     background-color: v.$color_blue;
