@@ -17,6 +17,7 @@ ul,
 p,
 button {
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -28,7 +29,11 @@ li {
     list-style: none;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+figure, blockquote {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
 }
